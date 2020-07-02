@@ -37,7 +37,7 @@ const envConfig = {
 
     'int-g1ds': {
         web: {
-            HOST_URL: 'https://www.google.com/',
+            HOST_URL: 'https://successivesoftware.keka.com/ui/#/me/attendance/logs/',
         },
         server: {
             serverURL: 'https://shared01-int-g1ds-kong-proxy.az.eu-az-int-wal.gdpdentsu.net/mapping/graphql',
@@ -48,7 +48,7 @@ const envConfig = {
 
     'stg-g1ds': {
         web: {
-            HOST_URL: 'https://www.google.com/',
+            HOST_URL: 'www.google.com',
         },
         server: {
             serverURL: 'https://shared01-stg-g1ds-kong-proxy.az.eu-az-stg-wal.gdpdentsu.net/mapping/graphql',

@@ -218,7 +218,8 @@ declare namespace CodeceptJS {
     executeAsyncScript(fn: Function) : void,
     scrollTo(locator: ILocator, offsetX?: number, offsetY?: number) : void,
     scrollTo(locator: string, offsetX?: number, offsetY?: number) : void,
-    moveCursorTo(locator: ILocator, offsetX?: number, offsetY?: number) : void,
+
+      moveCursorTo(locator: string, offsetX?: string, offsetY?: number) : void,
     moveCursorTo(locator: string, offsetX?: number, offsetY?: number) : void,
     saveScreenshot(fileName: string, fullPage?: string) : void,
     setCookie(cookie: string) : void,
